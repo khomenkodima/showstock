@@ -1,4 +1,4 @@
-# confproduct
+# Show Stock test module
 
 Using Magento 2.3 write one or more modules that will:
 For configurable products
