@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.simple.extra">
+            <block class="Khomenko\ShowStock\Block\Product\View\Type\Simple\Stock" name="product.info.stock" as="product_type_simple_stock" template="Khomenko_ShowStock::product/view/type/simple/stock.phtml" after="-"/>
+        </referenceContainer>
+    </body>
+</page>
