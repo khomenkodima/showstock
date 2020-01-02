@@ -12,3 +12,8 @@ Consideration should be taken to ensure that:
 - Work in an extensible fashion
 - Works with MSI
 - Works with Full Page Cache Enabled
+
+Notes:
+
+1. Solution expected that configuration option Catalog->Inventory-> Display Out of Stock Products = Yes. For live module this could be implemented in 'Recurring Upgrade Scripts'
+2. For now stock qty is calculated without attributes combination. For example: Qty if 'Red' associated simple products of all sizes. Or, all "XL" associated products in any color. It works well for conf products with 1 or 2 conf attributes. If projects expects more conf attributes, it makes sense to change stock Qty respecting to previously selected attributes. But this solution is much more complicated.
